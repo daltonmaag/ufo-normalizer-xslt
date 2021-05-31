@@ -8,3 +8,10 @@ open-source (Apache 2) in the hope to help with establishing
 [a recommended UFO normalization format](https://github.com/unified-font-object/ufo-spec/issues/144).
 
 The test UFOs are Mutator Sans from https://github.com/LettError/mutatorSans
+
+## Running
+
+```bash
+poetry install
+poetry run ufo-normalizer-xslt YourFont.ufo
+```
